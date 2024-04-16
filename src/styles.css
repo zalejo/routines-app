@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: #333;
+}
+
+ul.routineRow {
+  color: antiquewhite;
+  padding-left: 5px;
+  list-style-type: none;
+}
+ul.peopleList {
+  list-style-type: none;
+}
+
+input[type="checkbox"]:checked {
+  background-color: lightcoral;
+}
+
+li:checked {
+  background-color: lightcoral;
+}
+
+label {
+  padding-left: 15px;
+}
+
+button.routineRowBtn {
+  background-color: lightskyblue;
+  border: 0px;
+  margin: 2px;
+}
+
+.newInputFieldsUnhidden form {
+  margin: 2px;
+  display: inline;
+}
+.newInputFieldsHidden form {
+  margin: 2px;
+  display: none;
+}
+
+.addRoutineBtnUnhidden {
+  margin: 2px;
+  display: inline;
+}
+
+.addRoutineBtnHidden {
+  margin: 2px;
+  display: none;
+}
+
+div.clientesClass {
+  color: whitesmoke;
+}
+
+.personRowClass {
+  margin: 3px;
+  padding-left: 3px;
+  height: 18px;
+}
+
+.personRow {
+  color: cornflowerblue;
+  padding: 8px;
+}
+
+ul.peopleList {
+  box-shadow: 2px 1px 3px 3px darkgrey;
+  border-radius: 5px;
+}
+
+div.exerciseContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  height: 500px;
+}
+
+div.exerciseColumns {
+  border: 1px solid black;
+  margin: 0px;
+  flex: 1;
+  flex-direction: column;
+  height: 500px;
+}
+
+div.exerciseColumnsExercise {
+  border: 1px solid black;
+  margin: 0px;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.exerciseItem {
+  max-height: 400px;
+  overflow-y: auto;
+  list-style-type: none;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  align-items: center;
+  margin-bottom: 3px;
+  padding-left: 9px;
+}
+
+.listContainer {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+
+.rowGroupItem {
+  background-color: rgb(245, 245, 245);
+  flex: 1;
+  display: flex;
+  padding: 0px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  align-items: center;
+  padding-left: 9px;
+  padding: 2px;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid black;
+}
+
+.detailsAccesories {
+  border: 1px solid black;
+  flex: 1;
+  padding-left: 5px;
+  padding-top: 5px;
+  background-color: rgba(255, 238, 0, 0.527);
+}
+.detailsTechnique {
+  border: 1px solid black;
+  flex: 1;
+  padding-left: 5px;
+  padding-top: 5px;
+  background-color: rgba(51, 255, 0, 0.349);
+}
+.detailsErrors {
+  border: 1px solid black;
+  flex: 1;
+  padding-left: 5px;
+  padding-top: 5px;
+  background-color: rgba(255, 0, 0, 0.39);
+}
+
+.detailSubtitle {
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 3px;
+}
